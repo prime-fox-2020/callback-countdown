@@ -6,3 +6,5 @@ const main = () => {
 };
 
 main();
+
+// console.log(process.cwd())
