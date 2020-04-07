@@ -7,7 +7,6 @@ const timer = seconds => {
   }, 1000)
   setTimeout(() => {
     clearInterval(count)
-    console.clear()
     displayCountdown(seconds)
   }, seconds*1000 + 1000)
 };
