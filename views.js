@@ -4,8 +4,16 @@ const chalk = require("chalk");
 
 const displayCountdown = seconds => {
   clear();
+  let min = 0;
   console.log(chalk.cyan(figlet.textSync("Countdown App")));
-  // Your code here...
+  if (seconds >= 60) min = Math.floor(seconds/60); seconds -= min*60;
+  if (min < 10) min = `0${min}`;
+  if (seconds < 10) seconds = `0${seconds}`;
+  if (seconds >= 0) {
+    console.log(chalk.blueBright(figlet.textSync(`${min}:${seconds}`)));
+  } else {
+    console.log(chalk.blueBright(figlet.textSync('Waktu Habis')));
+  }
 };
 
 module.exports = { displayCountdown };
