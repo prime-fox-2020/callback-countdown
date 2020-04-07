@@ -1,12 +1,25 @@
 {
-  "name": "countdown_timer",
+  "name": "chalk",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Riza Fahmi <rizafahmi@gmail.com> (https://rizafahmi.com/)",
   "license": "MIT",
   "dependencies": {
-    "chalk": "2.3.1",
+    "chalk": "^2.3.1",
     "clear": "0.0.1",
-    "figlet": "1.2.0"
-  }
+    "figlet": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prime-fox-2020/callback-countdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prime-fox-2020/callback-countdown/issues"
+  },
+  "homepage": "https://github.com/prime-fox-2020/callback-countdown#readme",
+  "description": ""
 }
