@@ -1,8 +1,8 @@
-const { timer } = require("./controllers");
+const {timer} = require("./controllers");
 
 const main = () => {
-  const seconds = parseInt(process.argv[2]) || 10;
-  timer(seconds);
+  const second = parseInt(process.argv[2]) || 10;
+  timer(second); 
 };
 
 main();
